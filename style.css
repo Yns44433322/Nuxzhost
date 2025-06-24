@@ -1,14 +1,13 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: black;
+    color: white;
 }
 
 header {
-    background-color: #4a90e2;
+    background-color: red;
     color: white;
     text-align: center;
     padding: 20px;
@@ -23,6 +22,7 @@ nav a {
 
 section {
     padding: 20px;
+    background-color: blue;
 }
 
 .product-list {
@@ -33,9 +33,9 @@ section {
 
 .product-card {
     background-color: white;
+    color: black;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ section {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background-color: #25D366;
+    background-color: red;
     color: white;
     border-radius: 4px;
     text-decoration: none;
@@ -51,9 +51,8 @@ section {
 }
 
 .order-button:hover {
-    background-color: #128C7E;
+    background-color: darkred;
 }
-
 footer {
     background-color: #333;
     color: white;
